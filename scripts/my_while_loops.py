@@ -27,5 +27,3 @@ while a != 0:
     if a == 2:
         continue  # Generally used to skip certain condition or scenarios
     print(a)
-
-print('End')

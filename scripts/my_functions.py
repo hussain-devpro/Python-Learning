@@ -77,5 +77,5 @@ def modify_count(c):
 
 set_count(5)
 show_count()
-modify_count(7)
+modify_count(7)  # it will modify the global count variable
 show_count()

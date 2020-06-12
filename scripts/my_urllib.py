@@ -8,7 +8,7 @@ import sys
 from urllib.request import urlopen
 
 
-def fetchWords(url):
+def fetch_words(url):
     """Fetch list of words from URL"""
     story = urlopen(url)
     story_words = []
@@ -25,7 +25,7 @@ def print_items(items):
 
 
 def main(url):
-    words = fetchWords(url)
+    words = fetch_words(url)
     print_items(words)
 
 
