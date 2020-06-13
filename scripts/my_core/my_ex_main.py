@@ -1,5 +1,5 @@
-from my_exceptional import convert, string_log
-from my_roots import sqrt
+from my_core.my_exceptional import convert, string_log
+from my_core.my_roots import sqrt
 
 ############################## my_exceptional ##############################
 

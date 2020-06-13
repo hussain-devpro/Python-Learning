@@ -1,4 +1,4 @@
-from my_airtravel import Flight, AirCraft
+from my_core.my_airtravel import Flight, AirCraft
 from pprint import pprint as pp
 
 # f = Flight()

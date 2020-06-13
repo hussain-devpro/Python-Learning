@@ -2,7 +2,7 @@ import sys
 # print(sys.getdefaultencoding()) # to check default encoding of the system
 
 # open function return a file-like object
-f = open("../cfg/out.txt", mode='wt', encoding='utf-8')  # modes r=read, w=write, a=append. # selector t=text, b=binary
+f = open("../../cfg/out.txt", mode='wt', encoding='utf-8')  # modes r=read, w=write, a=append. # selector t=text, b=binary
 #print(f, type(f))  # <_io.TextIOWrapper name='../cfg/out.txt' mode='wt' encoding='utf-8'> <class '_io.TextIOWrapper'>
 code_points1 = f.write("Recent tragedies in the US have shone a spotlight on the racism and injustice "
         "faced by Black people around the world, including in the UK.\n")
@@ -19,7 +19,7 @@ print(code_points2)  # Returns 57 code points
 f.close()
 # Windows will have one more extra byte than the linux system due to universal newline feature.
 
-g = open("../cfg/out.txt", mode='rt', encoding='utf-8')
+g = open("../../cfg/out.txt", mode='rt', encoding='utf-8')
 print(f"#{g.read(139)}#")  # number of charters to read, not the byte, Result has new line char at the end
 print(f"#{g.read()}#")  # Read remaining data from the pointer, Result has new line char at the end
 print(f"#{g.read()}#")  # result in empty string
