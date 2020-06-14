@@ -1,0 +1,8 @@
+# To ignore IPython Note-Book Checkpoints files
+.ipynb_checkpoints
+
+# Virtual environment
+venv
+
+# IDE related files
+.idea
