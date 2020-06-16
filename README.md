@@ -10,3 +10,5 @@ Section: Objects and Types: No major example but excellent understanding
 **Learning through PluralSight Course (Working with Multidimensional Data Using NumPy)**
 
 Section-2 Image Manipulation: No example but good understanding of Images
+
+**Learning through PluralSight Course (Building Data Visualizations Using Plotly)**
