@@ -1,0 +1,2 @@
+# To ignore html files for language breakdown through github-linguist 
+scripts/my_plotly/my_plots/* linguist-vendored
