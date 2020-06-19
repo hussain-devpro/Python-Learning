@@ -16,3 +16,5 @@ Section-2 Image Manipulation: No example but good understanding of Images
 **Learning through Youtube (Plotly Dash Complete Tutorial)**
 
 From **Data Science Tutorials** channel: Only components overview
+
+**Learning through official Dash User Guide** https://dash.plotly.com/
